@@ -126,16 +126,17 @@ namespace Listando.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int?>("MarcaId")
+                    b.Property<int>("MarcaId")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UnidadeVolume")
+                    b.Property<int>("UnidadeVolume")
                         .HasColumnType("int");
 
-                    b.Property<double?>("Volume")
+                    b.Property<double>("Volume")
                         .HasColumnType("float");
 
                     b.HasKey("Id");
@@ -211,7 +212,9 @@ namespace Listando.Migrations
                 {
                     b.HasOne("Listando.Models.MarcaModel", "Marca")
                         .WithMany()
-                        .HasForeignKey("MarcaId");
+                        .HasForeignKey("MarcaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Marca");
                 });

@@ -31,7 +31,7 @@ namespace Listando.Services.Repositories
 
         public async Task<List<UsuarioModel>> BuscarUsuarioPorPalavraChaveAsync(string palavraChave)
         {
-            return await _dbContext.Usuarios.Where(u => u.Nome.StartsWith(palavraChave, StringComparison.InvariantCultureIgnoreCase)).ToListAsync();
+            return await _dbContext.Usuarios.Where(u => u.Nome.ToLower().StartsWith(palavraChave.ToLower())).ToListAsync();
         }
 
         public async Task<UsuarioModel> AdicionarUsuarioAsync(UsuarioModel usuario)
@@ -50,9 +50,13 @@ namespace Listando.Services.Repositories
             {
                 throw new Exception($"Usuario no id: {usuario.Id} não encontrado.");
             }
-            _dbContext.Usuarios.Update(usuario);
+            u.Nome = usuario.Nome;
+            u.Email = usuario.Email;
+            u.Password = usuario.Password;
+
+            _dbContext.Usuarios.Update(u);
             await _dbContext.SaveChangesAsync();
-            return usuario;
+            return u;
         }
 
         public async Task<bool> RemoverUsuarioAsync(int userId)
@@ -64,6 +68,7 @@ namespace Listando.Services.Repositories
                 throw new Exception($"Usuario no id: {userId} não encontrado.");
             }
             _dbContext.Usuarios.Remove(u);
+            _dbContext.SaveChanges();
             return true;
         }
     }

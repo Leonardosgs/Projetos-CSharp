@@ -2,6 +2,7 @@
 using Listando.Models;
 using Listando.Services.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace Listando.Services.Repositories
 {
@@ -15,8 +16,8 @@ namespace Listando.Services.Repositories
         }
 
         public async Task<ProdutoModel> BuscarProdutoPorIdAsync(int idProduto)
-        {
-            return await _dbContext.Produtos.FirstOrDefaultAsync(p => p.Id == idProduto);
+        { 
+            return await _dbContext.Produtos.Include(p => p.Marca).FirstOrDefaultAsync(p => p.Id == idProduto);
         }
 
         public async Task<List<ProdutoModel>> BuscarProdutoPorPalavraChaveAsync(string palavraChave)
@@ -26,12 +27,18 @@ namespace Listando.Services.Repositories
 
         public async Task<List<ProdutoModel>> BuscarTodosAsync()
         {
-            return await _dbContext.Produtos.ToListAsync();
+            List<ProdutoModel> lista = await _dbContext.Produtos.Include(p => p.Marca).ToListAsync();
+            return lista;
         }
 
         public async Task<ProdutoModel> AdicionarProdutoAsync(ProdutoModel produto)
         {
-            await _dbContext.Produtos.AddAsync(produto);
+            MarcaModel m = await _dbContext.Marcas.FirstOrDefaultAsync(m => m.Id == produto.Id);
+            if (m == null)
+            {
+                produto.Marca = _dbContext.Marcas.Add(produto.Marca).Entity;
+            }
+            await _dbContext.AddAsync(produto);
             await _dbContext.SaveChangesAsync();
             return produto;
         }
@@ -45,18 +52,23 @@ namespace Listando.Services.Repositories
                 throw new Exception($"Produto para o Id: {produto.Id} não foi encontrado no banco de dados.");
             }
 
-            _dbContext.Produtos.Update(produto);
+            p.Nome = produto.Nome;
+            p.UnidadeVolume = produto.UnidadeVolume;
+            p.Volume = produto.Volume;
+            p.Marca = produto.Marca;
+
+            _dbContext.Produtos.Update(p);
             await _dbContext.SaveChangesAsync();
             return p;
         }
 
-        public async Task<bool> RemoverProdutoAsync(ProdutoModel produto)
+        public async Task<bool> RemoverProdutoAsync(int id)
         {
-            ProdutoModel p = await BuscarProdutoPorIdAsync(produto.Id);
+            ProdutoModel p = await BuscarProdutoPorIdAsync(id);
 
             if (p == null)
             {
-                throw new Exception($"Produto para o Id: {produto.Id} não foi encontrado no banco de dados.");
+                throw new Exception($"Produto para o Id: {id} não foi encontrado no banco de dados.");
             }
 
             _dbContext.Produtos.Remove(p);

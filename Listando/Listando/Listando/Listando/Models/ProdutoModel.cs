@@ -1,13 +1,15 @@
 ﻿using Listando.Models.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace Listando.Models
 {
     public class ProdutoModel
     {
         public int Id { get; set; }
-        public string Nome { get; set; }
-        public UnidadeVolume? UnidadeVolume { get; set; }
-        public double? Volume { get; set; }
+        [Required]
+        public string? Nome { get; set; }
+        public UnidadeVolume UnidadeVolume { get; set; }
+        public double Volume { get; set; }
         public MarcaModel Marca { get; set; }
 
         public ProdutoModel()

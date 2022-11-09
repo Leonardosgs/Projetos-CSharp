@@ -10,10 +10,11 @@ namespace Listando.Data.Map
         public void Configure(EntityTypeBuilder<ProdutoModel> builder)
         {
             builder.HasKey(p => p.Id).HasName("produto_id");
+            builder.Property(p => p.Id).ValueGeneratedOnAdd();
             builder.Property(p => p.Nome).HasMaxLength(255).IsRequired();
             builder.Property(p => p.UnidadeVolume)
-                .HasConversion(p => p.ToString(), p => (UnidadeVolume)Enum.Parse(typeof(UnidadeVolume), p)).IsRequired();
-            builder.Property(p => p.Volume).IsRequired();
+                .HasConversion(p => p.ToString(), s => (UnidadeVolume)Enum.Parse(typeof(UnidadeVolume), s));
+            builder.HasOne(m => m.Marca).WithMany();
         }
     }
 }
