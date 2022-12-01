@@ -1,0 +1,392 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.WebApi\\VL.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core.Shared\\VL.Core.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core.Shared\\VL.Core.Shared.csproj",
+        "projectName": "VL.Core.Shared",
+        "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core.Shared\\VL.Core.Shared.csproj",
+        "packagesPath": "C:\\Users\\L. Gomes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\L. Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core\\VL.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core\\VL.Core.csproj",
+        "projectName": "VL.Core",
+        "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core\\VL.Core.csproj",
+        "packagesPath": "C:\\Users\\L. Gomes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\L. Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Data\\VL.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Data\\VL.Data.csproj",
+        "projectName": "VL.Data",
+        "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Data\\VL.Data.csproj",
+        "packagesPath": "C:\\Users\\L. Gomes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\L. Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core\\VL.Core.csproj": {
+                "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core\\VL.Core.csproj"
+              },
+              "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Manager\\VL.Manager.csproj": {
+                "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Manager\\VL.Manager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Manager\\VL.Manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Manager\\VL.Manager.csproj",
+        "projectName": "VL.Manager",
+        "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Manager\\VL.Manager.csproj",
+        "packagesPath": "C:\\Users\\L. Gomes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Manager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\L. Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core.Shared\\VL.Core.Shared.csproj": {
+                "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core.Shared\\VL.Core.Shared.csproj"
+              },
+              "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core\\VL.Core.csproj": {
+                "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core\\VL.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.WebApi\\VL.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.WebApi\\VL.WebApi.csproj",
+        "projectName": "VL.WebApi",
+        "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.WebApi\\VL.WebApi.csproj",
+        "packagesPath": "C:\\Users\\L. Gomes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\L. Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core.Shared\\VL.Core.Shared.csproj": {
+                "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core.Shared\\VL.Core.Shared.csproj"
+              },
+              "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core\\VL.Core.csproj": {
+                "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Core\\VL.Core.csproj"
+              },
+              "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Data\\VL.Data.csproj": {
+                "projectPath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\VL.Data\\VL.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

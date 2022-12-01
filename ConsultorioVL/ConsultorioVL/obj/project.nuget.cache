@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "s4wsO/DRBPEPZwWP3yQnUvs8eql+84+2d8wUf9c8kPR2+5jxBlhgPTAiqPj+JBiYvzowTiCG3Dj/uHK+i26mSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\L. Gomes\\source\\repos\\ConsultórioVL\\ConsultórioVL\\VL.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\L. Gomes\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
+  "logs": []
+}

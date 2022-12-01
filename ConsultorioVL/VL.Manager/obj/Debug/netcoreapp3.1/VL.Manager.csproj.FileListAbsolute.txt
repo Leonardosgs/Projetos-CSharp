@@ -1,0 +1,15 @@
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\bin\Debug\netcoreapp3.1\VL.Manager.deps.json
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\bin\Debug\netcoreapp3.1\VL.Manager.dll
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\bin\Debug\netcoreapp3.1\VL.Manager.pdb
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.csproj.AssemblyReference.cache
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.AssemblyInfoInputs.cache
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.AssemblyInfo.cs
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.csproj.CoreCompileInputs.cache
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.dll
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.pdb
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.dll
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.pdb
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\obj\Debug\netcoreapp3.1\VL.Manager.csproj.CopyComplete
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.Shared.dll
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Manager\bin\Debug\netcoreapp3.1\VL.Core.Shared.pdb

@@ -1,0 +1,145 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VL.Manager/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.0.0",
+          "FluentValidation.AspNetCore": "11.0.3",
+          "VL.Core": "1.0.0",
+          "VL.Core.Shared": "1.0.0"
+        },
+        "runtime": {
+          "VL.Manager.dll": {}
+        }
+      },
+      "AutoMapper/10.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.0.3": {
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.3.0"
+          }
+        }
+      },
+      "FluentValidation.AspNetCore/11.0.3": {
+        "dependencies": {
+          "FluentValidation": "11.0.3",
+          "FluentValidation.DependencyInjectionExtensions": "11.0.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.3.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.0.3": {
+        "dependencies": {
+          "FluentValidation": "11.0.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.3.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {},
+      "System.Reflection.Emit/4.7.0": {},
+      "VL.Core/1.0.0": {
+        "runtime": {
+          "VL.Core.dll": {}
+        }
+      },
+      "VL.Core.Shared/1.0.0": {
+        "runtime": {
+          "VL.Core.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VL.Manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T09NoqMZBqw0/JEauXulxnmmerl0Zj03e0r6VCcJ0LURWBIaYxZPPoiDv8bHf5Y4x2xcXJp4JPXoCaeOMJfHEA==",
+      "path": "automapper/10.0.0",
+      "hashPath": "automapper.10.0.0.nupkg.sha512"
+    },
+    "FluentValidation/11.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UZSn74ufuSpHBSRivPVe1IGhOYnbyzr1jpoWqK3CTcnpDxkADcwoUbrbKhEio3MZLxTv9yVlFT7uDkb/XotOiQ==",
+      "path": "fluentvalidation/11.0.3",
+      "hashPath": "fluentvalidation.11.0.3.nupkg.sha512"
+    },
+    "FluentValidation.AspNetCore/11.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ie5XUwpG4fjXhyHsKG2j8BZPCcAMrA1cRvyKFHZYs/lkJ1Ct0qBYAFS3B82pWYJHb6XnBIbUlB664mwsMzbqw==",
+      "path": "fluentvalidation.aspnetcore/11.0.3",
+      "hashPath": "fluentvalidation.aspnetcore.11.0.3.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MLbbooikiH1QqFa9p+Fa/qPi5jUt0vzSWRjf6ERi79GKFsqjFKmgtcsZzWFSbrDUvueaDE6yyHHHvCFWlne4fw==",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.0.3",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.0.3.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "VL.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VL.Core.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

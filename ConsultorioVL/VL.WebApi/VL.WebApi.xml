@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VL.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:VL.WebApi.Controllers.ClientesController.BuscarTodos">
+            <summary>
+            Retorna Todos os clientes cadastrados no banco de dados
+            </summary>
+        </member>
+        <member name="M:VL.WebApi.Controllers.ClientesController.BuscarCliente(System.Int32)">
+            <summary>
+            Retorna cliente com id passado no paramentro
+            </summary>
+            <param name="id" example="10">Id do cliente</param>
+        </member>
+        <member name="M:VL.WebApi.Controllers.ClientesController.AdiconarCliente(VL.Core.Shared.ModelViews.NovoCliente)">
+            <summary>
+            Cadastra o cliente no banco de dados
+            </summary>
+            <param name="novoCliente"></param>
+        </member>
+        <member name="M:VL.WebApi.Controllers.ClientesController.AtualizarCliente(VL.Core.Shared.ModelViews.AlteraCliente)">
+            <summary>
+            Altera propriedades do cliente informado pelo id
+            </summary>
+            <param name="alteraCliente"></param>
+        </member>
+        <member name="M:VL.WebApi.Controllers.ClientesController.RemoverCliente(System.Int32)">
+            <summary>
+            Deleta o cliente do banco de dados enviando como parametro seu id
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,10 @@
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Core.Shared\bin\Debug\netcoreapp3.1\VL.Core.Shared.deps.json
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Core.Shared\bin\Debug\netcoreapp3.1\VL.Core.Shared.dll
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Core.Shared\bin\Debug\netcoreapp3.1\VL.Core.Shared.pdb
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Core.Shared\obj\Debug\netcoreapp3.1\VL.Core.Shared.csproj.AssemblyReference.cache
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Core.Shared\obj\Debug\netcoreapp3.1\VL.Core.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Core.Shared\obj\Debug\netcoreapp3.1\VL.Core.Shared.AssemblyInfoInputs.cache
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Core.Shared\obj\Debug\netcoreapp3.1\VL.Core.Shared.AssemblyInfo.cs
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Core.Shared\obj\Debug\netcoreapp3.1\VL.Core.Shared.csproj.CoreCompileInputs.cache
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Core.Shared\obj\Debug\netcoreapp3.1\VL.Core.Shared.dll
+C:\Users\L. Gomes\source\repos\ConsultórioVL\VL.Core.Shared\obj\Debug\netcoreapp3.1\VL.Core.Shared.pdb
